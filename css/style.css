@@ -27,14 +27,15 @@ body{
     /* test */
     background-color: red;
     height: 100%;
-    
 }
 
 .image{
     /* test */
     background-color: blue;
-    
-    
+}
+
+.image img{
+    width: 100%;
 }
 
 /* info */
@@ -62,4 +63,5 @@ body{
 .sconto{
     color: gray;
     font-size: 17px;
+    text-decoration: line-through;
 }
