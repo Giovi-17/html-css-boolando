@@ -26,10 +26,23 @@ body{
 
 .image{
     position: relative;
+    width: 85%;
 }
 
 .image img{
     width: 100%;
+}
+
+/* seconda immagine */
+
+.image-back{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+.image:hover .image-back{
+    display: block;
 }
 
 /* aggiunte sopra l'immagine */
