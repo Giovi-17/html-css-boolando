@@ -14,32 +14,64 @@ body{
     width: 75%;
     margin: 30px auto;
     text-align: center;
-
-    /* test */
-    background-color: aqua;
 }
 
 .product{
     display: inline-block;
     width: 32%;
     margin: auto;
-
-    /* test */
-    background-color: red;
-    height: 100%;
 }
 
+/* image */
+
 .image{
-    /* test */
-    background-color: blue;
+    position: relative;
 }
 
 .image img{
     width: 100%;
 }
 
-/* info */
+/* aggiunte sopra l'immagine */
 
+.percentuale-sconto{
+    padding: 6px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.sostenibilita{
+    padding: 6px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 54px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
+}
+
+.heart{
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: white;
+    color: black;
+}
+
+/* info */
 .info{
     text-align: left;
     height: 15%;
@@ -52,7 +84,8 @@ body{
 
 .nome-prodotto{
     color: black;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .prezzo{
