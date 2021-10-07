@@ -19,14 +19,14 @@ body{
 .product{
     display: inline-block;
     width: 32%;
-    margin: auto;
+    margin: 5px;
 }
 
 /* image */
 
 .image{
     position: relative;
-    width: 85%;
+    margin-bottom: 5px;
 }
 
 .image img{
@@ -104,6 +104,7 @@ body{
 .prezzo{
     color: red;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .sconto{
