@@ -6,10 +6,10 @@
 }
 
 body{
-    font-family: Arial;
+    font-family: sans-serif;
 }
 
-/* MAIN */
+/* COMMON */
 .container{
     width: 75%;
     margin: 30px auto;
@@ -20,13 +20,13 @@ body{
     display: inline-block;
     width: 32%;
     margin: 5px;
+    /* padding: 10px; */
 }
 
 /* image */
 
 .image{
     position: relative;
-    margin-bottom: 5px;
 }
 
 .image img{
@@ -45,38 +45,29 @@ body{
     display: block;
 }
 
-/* aggiunte sopra l'immagine */
-
-.percentuale-sconto{
+/* tags */
+.percentuale-sconto, .sostenibilita{
     padding: 6px;
-    font-size: 15px;
+    font-size: 16px;
     position: absolute;
     bottom: 20px;
-    left: 0;
-    background-color: red;
     color: white;
     font-weight: bold;
+}
+
+.percentuale-sconto{
+    left: 0;
+    background-color: red;
 }
 
 .sostenibilita{
-    padding: 6px;
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
     left: 54px;
     background-color: green;
-    color: white;
-    font-weight: bold;
-
 }
 
 .heart{
-    width: 35px;
-    height: 35px;
-    padding: 6px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 25px;
+    padding: 7px 13px;
+    font-size: 35px;
     position: absolute;
     right: 0;
     top: 20px;
